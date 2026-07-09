@@ -4,3 +4,7 @@ networkx>=3.2
 matplotlib>=3.8
 folium>=0.15
 jupyter>=1.0
+plotly>=5.0
+kaleido>=0.2
+nbformat>=4.2
+
