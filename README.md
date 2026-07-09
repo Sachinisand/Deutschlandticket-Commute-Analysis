@@ -1,6 +1,6 @@
 # Deutschlandticket Commute Potential — Norderstedt 🚇
 
-A data science project that estimates how attractive public transport would be for employees commuting to **AB company, Robert-Koch-Straße 1, 22851 Norderstedt** — and how likely they would be to adopt the **Deutschlandticket**.
+A data science project that estimates how attractive public transport would be for employees commuting to **Johnson & Johnson Medical GmbH, Robert-Koch-Straße 1, 22851 Norderstedt** — and how likely they would be to adopt the **Deutschlandticket**.
 
 Because real employee addresses are sensitive, the analysis uses a fully **synthetic employee dataset** representing people living in Hamburg and surrounding areas.
 
