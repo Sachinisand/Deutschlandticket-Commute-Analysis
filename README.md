@@ -12,16 +12,16 @@ Because real employee addresses are sensitive, the analysis uses a fully **synth
 Deutschlandticket-Commute-Analysis/
 ├── deutschlandticket_analysis.ipynb   ← main notebook (start here)
 ├── requirements.txt                   ← Python dependencies
-├── data/                              ← generated when you run the notebook
+├── data/                              ← synthetic + scored employee data
 │   ├── synthetic_employees.csv
 │   └── employees_scored.csv
-└── outputs/                           ← generated when you run the notebook
+└── outputs/                           ← charts and map from the notebook
     ├── commute_map.png
     ├── commute_time_distribution.png
     └── adoption_by_area.png
 ```
 
-> `data/` and `outputs/` are empty on clone — the notebook fills them automatically when run.
+> `data/` and `outputs/` hold the results of the last run; re-running the notebook regenerates them.
 
 ---
 
@@ -46,6 +46,8 @@ Deutschlandticket-Commute-Analysis/
 - **Best PT areas:** U1 corridor — Norderstedt, Garstedt, Langenhorn, Fuhlsbüttel
 - **Weakest PT areas:** Wedel/Blankenese (west), Harburg (south), Billstedt/Bergedorf (east)
 - **Biggest insight:** A company shuttle from Ochsenzoll or Norderstedt Mitte would improve adoption more than any ticket discount — the last mile is the biggest barrier
+
+![Commute time and Deutschlandticket adoption](images/commute_adoption.svg)
 
 ---
 
