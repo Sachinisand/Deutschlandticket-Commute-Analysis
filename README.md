@@ -1,8 +1,10 @@
-# Deutschlandticket Commute Potential — Norderstedt 🚇
+# Deutschlandticket Commute Potential: Norderstedt
 
 A data science project that estimates how attractive public transport would be for employees commuting to **Johnson & Johnson Medical GmbH, Robert-Koch-Straße 1, 22851 Norderstedt** — and how likely they would be to adopt the **Deutschlandticket**.
 
-Because real employee addresses are sensitive, the analysis uses a fully **synthetic employee dataset** representing people living in Hamburg and surrounding areas.
+Because real employee addresses are sensitive, the analysis uses a fully **synthetic employee dataset** representing people living in Hamburg and surrounding areas. The project is not affiliated with or endorsed by Johnson & Johnson.
+
+![Employee commute map coloured by public-transport commute time](outputs/commute_map.png)
 
 ---
 
@@ -73,8 +75,6 @@ jupyter lab deutschlandticket_analysis.ipynb
 
 `Kernel → Restart & Run All`
 
-> The notebook also has an install cell at the top that installs missing packages automatically.
-
 ---
 
 ## Dependencies
@@ -115,6 +115,4 @@ Journey-planner APIs (HVV GTI, Google Routes) require API keys and make the proj
 
 ---
 
-## Author
-
-Sachini — Data Analytics Portfolio Project
+**Author:** Sachini Hewahattage · [LinkedIn](https://www.linkedin.com/in/sachini-hewahattage) · [GitHub](https://github.com/Sachinisand)
